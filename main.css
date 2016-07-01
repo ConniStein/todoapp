@@ -1,0 +1,13 @@
+.container-fluid{
+	margin-left:-15px;
+	margin-right: -15px;
+}
+
+.header{
+	background-color: #002240;
+	margin: 0px;
+}
+h1{
+	color: #04E85B;
+	padding: 20px;
+}
