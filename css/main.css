@@ -1,11 +1,23 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
 
+}
 .header{
 	background-color: #71ECA0;
 	margin: 0px;
 	color: #03E958;
 	padding: 20px;
+	font-weight: bolder;
 }
 
 .icono-boton{
 	font-size: 20px;
+}
+
+.elementoprueba{
+	margin-top: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	color:#04E85B;
+	list-style-type: decimal;
 }

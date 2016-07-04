@@ -5,6 +5,7 @@
 	<title>To Do App</title>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
 </head>
 <body>
@@ -20,16 +21,19 @@
 		<div class="col-md-12">
 			<div class="form-group">
 			  <label for="comment"></label>
-			  <textarea class="form-control" rows="5" id="comment"></textarea>
+			  <textarea class="form-control" rows="5" id="agregarTarea"></textarea>
 			</div>
-			<a href="#" class="btn btn-primary"><span class="glyphicon glyphicon-plus icono-boton"></span> Añadir tarea</a>
+			<a href="#" class="btn btn-primary" id="botonAgregar"> Añadir tarea</a>
 		</div>
 	</section>
-
+	<!--<span class="glyphicon glyphicon-plus icono-boton"></span>-->
 	<section class="container">
 		<div class="col-md-12">
-			<div class="row">
-				<!--aqui van las tareas-->
+			<div class="row" id="tareas">
+				<ul>
+					<li class="elementoprueba">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+					<!--aqui van las tareas-->
+				</ul>
 			</div>
 		</div>
 	</section>
