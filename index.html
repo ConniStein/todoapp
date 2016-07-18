@@ -17,22 +17,24 @@
 		</div>
 	</header>
 
-	<section class="container">
+	<section class="container-fluid app">
 		<div class="col-md-12">
-			<div class="form-group">
-			  <label for="comment"></label>
-			  <textarea class="form-control" rows="5" id="agregarTarea"></textarea>
-			</div>
-			<a href="#" class="btn btn-primary" id="botonAgregar"> Añadir tarea</a>
+			<form>
+				<div class="form-group">		
+					<label for="newitem"></label>
+				    <input type="text" name="newitem" id="agregarTarea" placeholder="Agregar una tarea" class="escribir-tarea">
+				    <input type="submit" value="Añadir tarea" class="boton-tarea">
+				</div>
+			</form>
+			  
 		</div>
 	</section>
 	<!--<span class="glyphicon glyphicon-plus icono-boton"></span>-->
 	<section class="container">
 		<div class="col-md-12">
 			<div class="row" id="tareas">
-				<ul>
-					<li class="elementoprueba">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-					<!--aqui van las tareas-->
+				<ul id="tareaNueva" class="lista-de-tareas">
+					
 				</ul>
 			</div>
 		</div>

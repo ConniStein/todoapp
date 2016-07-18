@@ -1,23 +1,45 @@
 *{
 	font-family: 'Source Sans Pro', sans-serif;
-
 }
+
+.app{
+	background-color: #ffea95;
+	padding-bottom: 60px;
+}
+
 .header{
-	background-color: #71ECA0;
+	background-color: #ff9428;
 	margin: 0px;
-	color: #03E958;
+	color: #f2ff28;
 	padding: 20px;
 	font-weight: bolder;
 }
 
-.icono-boton{
-	font-size: 20px;
-}
-
-.elementoprueba{
+.lista-de-tareas{
 	margin-top: 20px;
 	font-size: 16px;
 	font-weight: bold;
-	color:#04E85B;
+	color:#ff9428;
 	list-style-type: decimal;
+}
+
+.escribir-tarea{
+	padding: 20px 60px;
+	margin-top: 20px;
+	border: 1px solid #ff9428;
+	border-radius: 5px;
+	margin-left: 530px;
+	display: block;
+}
+
+.boton-tarea{
+	background-color: #f2ff28 ;
+	color: #ff9428;
+	display: block;
+	border-radius: 5px;
+	padding:10px 20px;
+	font-weight: 700;
+	margin-left: 600px;
+	margin-top: 20px;
+
 }
